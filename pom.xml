@@ -11,7 +11,7 @@
   </parent>
   <groupId>sainsbury.serversidetest</groupId>
   <artifactId>sainsbury-serverside-test</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.FINAL</version>
   <name>sainsbury-serverside-test</name>
   <description>Java console application which scrapes a portion of the Sainsbury’s Groceries
     website.
@@ -58,6 +58,18 @@
       <version>5.4.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.12.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
+
   </dependencies>
 
   <build>
